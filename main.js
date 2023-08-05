@@ -3,7 +3,7 @@ let controlButtons = document.querySelector(".control-buttons");
 let minSpan = document.querySelector(".time .min");
 let secSpan = document.querySelector(".time .sec");
 let tries = document.querySelector(".tries span");
-let min = 5;
+let min = 3;
 let sec = 60;
 let interval;
 minSpan.innerHTML = min;

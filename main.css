@@ -30,6 +30,11 @@ body{
     background-color: white;
     z-index: 10000;
 }
+@media(max-width:767px){
+    .success, .fill{
+        font-size: 18px;
+    }
+}
 .success{
     color: green;
 }
